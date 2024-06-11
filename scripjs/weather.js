@@ -1,8 +1,8 @@
-const searchBtn = getElementById("search-btn");
-const cityInput= getElementById("city-input");
-const location=getElementByClass("location");
-const temp=getElementByClass("teamp");
-const sup= getElementById("sup")
+const searchBtn = document.getElementById("search-btn");
+const cityInput= document.getElementById("city-input");
+const location=document.getElementByClass("location");
+const temp=document.getElementByClass("teamp");
+const sup= document.getElementById("sup")
 const Info=async(event)=>{
     event.preventDefault();
     let cityValue = cityInput.value;
